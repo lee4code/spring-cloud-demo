@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-cloud-producer:war">
+    <output-path>$PROJECT_DIR$/spring-cloud-producer/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-cloud-producer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring-cloud-producer-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="spring-cloud-producer:war exploded" />
+    </root>
+  </artifact>
+</component>
